@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "your.server.ip",
-    "port": 25565,
+    "ip": "PocaiokLand.aternos.me",
+    "port": 54369,
     "version": "",
     "try-creative": false
   },
