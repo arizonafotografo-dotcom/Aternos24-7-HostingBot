@@ -7,29 +7,29 @@
   },
   "server": {
     "ip": "PocaiokLand.aternos.me",
-    "port": 54369,
+    "port": 0,
     "version": "",
     "try-creative": false
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 190,
     "y": 64,
     "z": -457
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
+      "enabled": false,
       "password": "YourAuthPassword"
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 300,
       "messages": [
         "I'm a regular player",
         "I like to play Minecraft!"
@@ -37,35 +37,35 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 10000,
+    "max-reconnect-delay": 300000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "radius": 2,
+      "speed": 1000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 8000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 15000
     }
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
@@ -81,7 +81,7 @@
     }
   },
   "chat": {
-    "respond": true,
+    "respond": false,
     "tpWhitelist": ["YourMinecraftUsername"]
   }
 }
